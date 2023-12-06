@@ -16,11 +16,6 @@ export function isValidCode(pinCode = "") {
     if (typeof pinCode !== "string") {
       pinCode = String(pinCode);
     }
-  
-  
-    if(pinCode.length !== 5 ) {
-      return false;
-    }
 
     // if (
     //   // here you could check for the first criterium
@@ -28,7 +23,7 @@ export function isValidCode(pinCode = "") {
     //   return false;
     // }
   
-    return true;
+    return null;
 }
 
 
